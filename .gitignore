@@ -3,3 +3,6 @@
 
 # Add .gitignore
 !.gitignore
+!.vimrc
+!.vimrc.bundles
+!.bash_profile
