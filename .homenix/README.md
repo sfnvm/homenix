@@ -7,5 +7,5 @@ Save configs files for new unix env setup
 # TL;DR
 Add this line to .bashrc | .zshrc | .bash_profile | ..etc
 ```console
-alias dgit='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
+alias dgit='git --git-dir ~/.homenix/.git --work-tree=$HOME'
 ```
