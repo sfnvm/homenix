@@ -5,7 +5,6 @@
 " +------------------+
 " | GENERAL SETTINGS |
 " +------------------+
-
 set nocompatible                " Don't make vim vi-compatible
 syntax on                       " Enable syntax highlighting
 set number                      " Set line numbering
@@ -23,7 +22,10 @@ set ttimeoutlen=30              " Light Line Plugins delay on switching mode
 
 set backspace=indent,eol,start  " Allow backspace in INSERT-MODE (MacOS problem)
 
-" Quicker windows movement
+
+" +--------------------------+
+" | Quicker windows movement |
+" +--------------------------+
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
@@ -39,10 +41,12 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 " +--------+
 " | VUNDLE |
 " +--------+
-
-if filereadable(expand("~/.vimrc.bundles"))
-    source ~/.vimrc.bundles
+if filereadable(expand("~/.vimrc.vundles"))
+   source ~/.vimrc.vundles
 endif
 
-" Plugin settings | Vim Color Schemes
-colorscheme molokai
+
+" +--------+
+" | OTHERS |
+" +--------+
+colorscheme molokai             " Plugin settings | Vim Color Schemes
