@@ -37,6 +37,9 @@ nnoremap <C-l> <C-w>l
 " +------+
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 
+" Prevent Vim from clearing clipboard on exit
+autocmd VimLeave * call system("xsel -ib", getreg('+'))
+" autocmd VimLeave * call system("xclip -o | xclip -selection clipboard")
 
 " +--------+
 " | VUNDLE |

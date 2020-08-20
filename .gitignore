@@ -7,4 +7,5 @@
 !.vimrc.vundles
 !.bash_profile
 !.zshrc
-
+!.homenix-sub/
+!.homenix-sub/*
