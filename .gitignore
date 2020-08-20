@@ -8,4 +8,4 @@
 !.bash_profile
 !.zshrc
 !.homenix-sub/
-!.homenix-sub/*
+!.homenix-sub/**
