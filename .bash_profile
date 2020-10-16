@@ -19,7 +19,9 @@ export GOROOT="/usr/local/go"
 # GO path
 export GOPATH="$HOME/src-code/go"
 # JAVA path
-export JAVA_HOME="/usr/lib/jvm/default-java"
+#export JAVA_HOME="/usr/lib/jvm/default-java"
+export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+
 # LOAD ALL INTO $PATH
 export PATH=$PATH:$PIPBIN
 export PATH=$PATH:$YARNBIN
