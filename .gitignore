@@ -8,5 +8,6 @@
 !.bash_profile
 !.fzf-key-bindings.zsh
 !.zshrc
+!.binds.zsh
 !.homenix-sub/
 !.homenix-sub/**
