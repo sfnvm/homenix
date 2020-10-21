@@ -106,3 +106,7 @@ fi
 if [ -f ~/.bash_profile ]; then 
     . ~/.fzf-key-bindings.zsh;
 fi
+
+if [ -f ~/.bash_profile ]; then
+    . ~/.binds.zsh;
+fi

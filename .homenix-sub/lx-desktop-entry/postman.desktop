@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Postman
+Comment=Web Reqs Simulator
+TryExec=/home/sfnvm25/ide/postman/postman
+Exec=/home/sfnvm25/ide/postman/postman -- %u
+Icon=/home/sfnvm25/ide/postman/postman.png
+Terminal=false
+StartupWMClass=Postman
+Type=Application
+Categories=IDE;Network;
+MimeType=x-scheme-handler/tg;
+Keywords=ide;rest;api;
+X-GNOME-UsesNotifications=true
