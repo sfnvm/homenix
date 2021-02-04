@@ -11,3 +11,6 @@
 !.binds.zsh
 !.homenix-sub/
 !.homenix-sub/**
+
+# Mac trash
+**/.DS_Store

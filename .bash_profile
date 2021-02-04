@@ -10,24 +10,30 @@ export NVM_DIR="$HOME/.nvm"
 # +----------------+
 # | BINARY SOURCES |
 # +----------------+
+# My ln binary links
+export HOMEBIN="$HOME/bin"
+export PATH=$PATH:$HOMEBIN
+
 # PIP bin
 export PIPBIN="$HOME/.local/bin"
+export PATH=$PATH:$PIPBIN
+
 # YARN bin
 export YARNBIN="$(yarn global bin)"
+export PATH=$PATH:$YARNBIN
+
 # GO bin
 export GOROOT="/usr/local/go"
+export PATH=$PATH:$GOROOT/bin
+
 # GO path
 export GOPATH="$HOME/src-code/go"
-# JAVA path
-#export JAVA_HOME="/usr/lib/jvm/default-java"
-export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
-
-# LOAD ALL INTO $PATH
-export PATH=$PATH:$PIPBIN
-export PATH=$PATH:$YARNBIN
-export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOPATH
-export PATH=$PATH:$JAVA_HOME/bin
+
+# JAVA path // OS diff
+# export JAVA_HOME="/usr/lib/jvm/default-java"
+# export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+# export PATH=$PATH:$JAVA_HOME/bin
 
 
 # +-----------+

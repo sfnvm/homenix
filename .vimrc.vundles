@@ -30,8 +30,9 @@ Plugin 'VundleVim/Vundle.vim'           " [This line is required]
 " [1] NERD Tree         - Folder View
 Plugin 'scrooloose/nerdtree'
 
+" Disable for now, no longer use VIM as code composer.
 " [2] You Complete Me   - Auto Complete for multiple languages
-Plugin 'valloric/youcompleteme'
+" Plugin 'valloric/youcompleteme'
 
 " [3] Light Line        - Status Line more colors
 Plugin 'itchyny/lightline.vim'
