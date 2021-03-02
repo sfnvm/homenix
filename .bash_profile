@@ -43,3 +43,16 @@ export PATH=$PATH:$GOPATH
 alias cl="clear && printf '\e[3J'"
 # alias dgit
 alias dgit='git --git-dir ~/.homenix/.git --work-tree=$HOME'
+
+
+# +------------+
+# | WSL Issues |
+# +------------+
+# WSL such, it load the profile file before .bashrc :/
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	. "$HOME/.bashrc"
+    fi
+fi
