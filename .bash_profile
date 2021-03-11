@@ -28,12 +28,12 @@ export PATH=$PATH:$GOROOT/bin
 
 # GO path
 export GOPATH="$HOME/src-code/go"
-export PATH=$PATH:$GOPATH
+export PATH=$PATH:$GOPATH/bin
 
 # JAVA path // OS diff
 # export JAVA_HOME="/usr/lib/jvm/default-java"
-# export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
-# export PATH=$PATH:$JAVA_HOME/bin
+export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+export PATH=$PATH:$JAVA_HOME/bin
 
 
 # +-----------+
@@ -44,6 +44,17 @@ alias cl="clear && printf '\e[3J'"
 # alias dgit
 alias dgit='git --git-dir ~/.homenix/.git --work-tree=$HOME'
 
+# +--------------+
+# | M$ UTILITIES |
+# +--------------+
+if uname -a | grep -q 'WSL2'; then
+    # Alias Notepad++
+    alias npp="/mnt/c/Program\ Files/Notepad++/notepad++.exe"
+    # Alias Clipboard
+    alias cpy="tr -d '\n' | clip.exe"
+    # Alias Explorer.exe, MacOS like style
+    alias open="explorer.exe"
+fi
 
 # +------------+
 # | WSL Issues |
@@ -53,6 +64,6 @@ alias dgit='git --git-dir ~/.homenix/.git --work-tree=$HOME'
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
     if [ -f "$HOME/.bashrc" ]; then
-	. "$HOME/.bashrc"
+        . "$HOME/.bashrc"
     fi
 fi

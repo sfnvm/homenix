@@ -53,6 +53,9 @@ Plugin 'mattn/emmet-vim'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 
+" [8] vim-go            - Support highlighting, build with vim command,..and so on
+Plugin 'fatih/vim-go'
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
