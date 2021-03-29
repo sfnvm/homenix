@@ -48,8 +48,14 @@ alias dgit='git --git-dir ~/.homenix/.git --work-tree=$HOME'
 # | M$ UTILITIES |
 # +--------------+
 if uname -a | grep -q 'WSL2'; then
+    # Export current Tax root source
+    export TAX="/mnt/c/Users/sfnvm/src-code/teca/tax"
+    # Export Windows Home folder
+    export WH="/mnt/c/Users/sfnvm"
     # Alias Notepad++
     alias npp="/mnt/c/Program\ Files/Notepad++/notepad++.exe"
+    # Alias Intellij Idea
+    alias idea="/mnt/c/Program\ Files/JetBrains/IntelliJ\ IDEA\ 2020.3.2/bin/idea64.exe"
     # Alias Clipboard
     alias cpy="tr -d '\n' | clip.exe"
     # Alias Explorer.exe, MacOS like style
