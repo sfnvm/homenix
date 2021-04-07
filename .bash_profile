@@ -42,7 +42,7 @@ export PATH=$PATH:$JAVA_HOME/bin
 # alias command to clear terminal
 alias cl="clear && printf '\e[3J'"
 # alias dgit
-alias dgit='git --git-dir ~/.homenix/.git --work-tree=$HOME'
+alias hgit='git --git-dir ~/.homenix/.git --work-tree=$HOME'
 
 # +--------------+
 # | M$ UTILITIES |

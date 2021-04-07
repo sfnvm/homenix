@@ -1,0 +1,8 @@
+[core]
+	filemode = false
+	autocrlf = false
+	eol = lf
+[credential]
+	helper = store
+[user]
+	name = sfnvm

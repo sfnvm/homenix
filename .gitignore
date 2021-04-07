@@ -11,6 +11,7 @@
 !.binds.zsh
 !.homenix-sub/
 !.homenix-sub/**
+!.gitconfig
 
 # Mac trash
 **/.DS_Store
