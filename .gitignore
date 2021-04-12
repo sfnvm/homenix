@@ -12,6 +12,7 @@
 !.homenix-sub/
 !.homenix-sub/**
 !.gitconfig
+!.tmux.conf
 
 # Mac trash
 **/.DS_Store
