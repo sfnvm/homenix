@@ -73,3 +73,6 @@ if [ -n "$BASH_VERSION" ]; then
         . "$HOME/.bashrc"
     fi
 fi
+
+# RUST bin: This env file contained binary source
+source "$HOME/.cargo/env"
