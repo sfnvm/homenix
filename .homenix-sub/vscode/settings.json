@@ -26,5 +26,11 @@
 
   "C_Cpp.updateChannel": "Insiders",
 
-  "python.formatting.autopep8Args": ["--indent-size=2"]
+  "python.formatting.autopep8Args": ["--indent-size=2"],
+
+  "terminal.integrated.shellArgs.windows": ["-l"],
+
+  "terminal.integrated.shellArgs.linux": ["-l"],
+
+  "terminal.integrated.shellArgs.osx": ["-l"],
 }
