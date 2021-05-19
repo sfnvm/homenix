@@ -33,4 +33,6 @@
   "terminal.integrated.shellArgs.linux": ["-l"],
 
   "terminal.integrated.shellArgs.osx": ["-l"],
+  
+  "terminal.integrated.tabs.enabled": true
 }
