@@ -30,9 +30,15 @@ export PATH=$PATH:$GOROOT/bin
 export GOPATH="$HOME/src-code/go"
 export PATH=$PATH:$GOPATH/bin
 
+# Gradle bin
+export GRADLE_VER="gradle-7.0.2"
+export GRADLE="/opt/gradle"
+export PATH=$PATH:$GRADLE/$GRADLE_VER/bin
+
 # JAVA path // OS diff
 # export JAVA_HOME="/usr/lib/jvm/default-java"
 export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
+# export JAVA_HOME="/usr/lib/jvm/adoptopenjdk-8-openj9-amd64"
 export PATH=$PATH:$JAVA_HOME/bin
 
 
@@ -75,4 +81,4 @@ if [ -n "$BASH_VERSION" ]; then
 fi
 
 # RUST bin: This env file contained binary source
-source "$HOME/.cargo/env"
+. "$HOME/.cargo/env"
