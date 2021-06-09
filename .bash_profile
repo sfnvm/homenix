@@ -35,6 +35,11 @@ export GRADLE_VER="gradle-7.0.2"
 export GRADLE="/opt/gradle"
 export PATH=$PATH:$GRADLE/$GRADLE_VER/bin
 
+# Maven bin
+export MAVEN_VER="apache-maven-3.8.1"
+export MAVEN="/opt/maven"
+export PATH=$PATH:$MAVEN/$MAVEN_VER/bin
+
 # JAVA path // OS diff
 # export JAVA_HOME="/usr/lib/jvm/default-java"
 export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
