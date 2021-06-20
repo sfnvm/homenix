@@ -1,38 +1,60 @@
 {
   "workbench.iconTheme": "ayu",
-  "workbench.tree.indent": 16,
+  "workbench.tree.indent": 10,
+  "workbench.colorTheme": "GitHub Dark Default",
 
-  "editor.fontSize": 12,
-  "editor.fontWeight": "500",
+  "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "550",
   "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
   "editor.rulers": [80, 120],
+  "editor.formatOnSave": true,
 
-  "window.restoreWindows": "none",
-  "window.zoomLevel": 0,
+  "window.restoreWindows": "all",
+  "window.zoomLevel": -1,
 
+  "C_Cpp.updateChannel": "Insiders",
+  "python.formatting.autopep8Args": ["--indent-size=2"],
+
+  "terminal.integrated.fontFamily": "'JetBrains Mono', 'monospace'",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1,
+
+  "redhat.telemetry.enabled": true,
+
+  "html.format.wrapAttributes": "force-aligned",
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.formatOnSave": true
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[json5]": {
+
+  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  "C_Cpp.updateChannel": "Insiders",
+  "[json5]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  }
 
-  "python.formatting.autopep8Args": ["--indent-size=2"],
-
-  "terminal.integrated.shellArgs.windows": ["-l"],
-
-  "terminal.integrated.shellArgs.linux": ["-l"],
-
-  "terminal.integrated.shellArgs.osx": ["-l"],
-  
-  "terminal.integrated.tabs.enabled": true
+  // "terminal.integrated.shellArgs.windows": ["-l"],
+  // "terminal.integrated.shellArgs.linux": ["-l"],
+  // "terminal.integrated.shellArgs.osx": ["-l"],
 }
