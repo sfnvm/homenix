@@ -26,6 +26,11 @@
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.lineHeight": 1,
   "terminal.integrated.sendKeybindingsToShell": true,
+  // "terminal.integrated.shellArgs.windows": ["-l"],
+  // "terminal.integrated.shellArgs.linux": ["-l"],
+  // "terminal.integrated.shellArgs.osx": ["-l"],
+
+  "prettier.singleQuote": true,
 
   "redhat.telemetry.enabled": true,
 
@@ -57,8 +62,4 @@
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   }
-
-  // "terminal.integrated.shellArgs.windows": ["-l"],
-  // "terminal.integrated.shellArgs.linux": ["-l"],
-  // "terminal.integrated.shellArgs.osx": ["-l"],
 }
