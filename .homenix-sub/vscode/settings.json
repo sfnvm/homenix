@@ -1,7 +1,11 @@
 {
   "workbench.iconTheme": "ayu",
-  "workbench.tree.indent": 10,
   "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.tree.indent": 10,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#008070"
+  },
 
   "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 13,
