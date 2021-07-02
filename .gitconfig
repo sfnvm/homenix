@@ -1,5 +1,5 @@
 [core]
-	filemode = false
+	fileMode = false
 	autocrlf = false
 	eol = lf
 [credential]
