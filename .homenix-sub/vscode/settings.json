@@ -6,14 +6,18 @@
   "workbench.colorCustomizations": {
     "tree.indentGuidesStroke": "#008070"
   },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
 
   "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-  "editor.fontSize": 13,
+  "editor.fontSize": 12,
   "editor.fontWeight": "550",
   "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
   "editor.rulers": [80, 120],
   "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
 
   "window.restoreWindows": "all",
   "window.zoomLevel": -1,
@@ -59,7 +63,9 @@
   "[json5]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
+
+  "xml.format.splitAttributesIndentSize": 2,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
   }
 }

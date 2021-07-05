@@ -52,9 +52,10 @@ for i in $(find . -name ".git" | cut -c 3-); do
         git pull;
     done
 
-    # Back
+    # Checkout and stash back into base
     if [ "$(git branch --show-current)" != "$current_branch" ]; then
         git checkout $current_branch;
+        git stash apply;
     fi
 
     # Lets get back to the CUR_DIR
