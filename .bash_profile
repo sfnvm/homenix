@@ -3,9 +3,8 @@
 # +------+
 # NVM
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
 # +----------------+
 # | BINARY SOURCES |
@@ -31,7 +30,7 @@ export GOPATH="$HOME/src-code/go"
 export PATH=$PATH:$GOPATH/bin
 
 # Gradle bin
-export GRADLE_VER="gradle-7.0.2"
+export GRADLE_VER="gradle-7.1.1" # Previous: 7.0.2
 export GRADLE="/opt/gradle"
 export PATH=$PATH:$GRADLE/$GRADLE_VER/bin
 
@@ -46,14 +45,21 @@ export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-amd64"
 # export JAVA_HOME="/usr/lib/jvm/adoptopenjdk-8-openj9-amd64"
 export PATH=$PATH:$JAVA_HOME/bin
 
+# Oracle Instant Client
+export ORACLE_HOME=/opt/oracle/instantclient_12_2
+export LD_LIBRARY_PATH="$ORACLE_HOME"
+# export ORACLE_SID="ORCLCDB"
+export PATH=$PATH:$ORACLE_HOME
 
 # +-----------+
 # | UTILITIES |
 # +-----------+
 # alias command to clear terminal
 alias cl="clear && printf '\e[3J'"
-# alias dgit
+# alias hgit
 alias hgit='git --git-dir ~/.homenix/.git --work-tree=$HOME'
+# alias hgitslim
+alias hgitslim='git --git-dir ~/.homenix-slim/.git --work-tree=$HOME/.homenix-slim'
 
 # +--------------+
 # | M$ UTILITIES |
