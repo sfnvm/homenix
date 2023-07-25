@@ -1,0 +1,47 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Monokai",
+  "workbench.tree.indent": 12,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#008070"
+  },
+
+  "window.restoreWindows": "none",
+
+  "editor.renderWhitespace": "all",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [80, 120],
+  "editor.lineHeight": 1.2,
+
+  "redhat.telemetry.enabled": true,
+
+  "python.formatting.autopep8Args": ["--indent-size=2"],
+
+  "prettier.singleQuote": true,
+
+  "html.format.wrapAttributes": "force-aligned",
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json5]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+
+  "files.exclude": {
+    "**/.git": false
+  }
+}
