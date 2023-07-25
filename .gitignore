@@ -1,0 +1,21 @@
+# Ignore all files
+*
+
+!.gitignore
+!.gitconfig
+
+!.tmux.conf
+
+!.vimrc
+!.vimrc.vundles
+
+!.zshrc
+!.zshrc.org.zshrc
+!.zshrc.paths.zshrc
+!.zshrc.aliases.zshrc
+
+!.homenix-sub/
+!.homenix-sub/**
+
+# Mac trash
+**/.DS_Store
